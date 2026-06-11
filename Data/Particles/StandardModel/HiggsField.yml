@@ -1,0 +1,21 @@
+## A definition
+
+version: "v0.1"
+
+definition:
+  name: "The Higgs field" # (Required) The canonical name for the definition. 
+  description: | # (Required) The definition itself. 
+    The Higgs Field is a scalar field responsable giving mass to the W and Z bosons, 
+    as well as to the fermions through the Yukawa coupling. It sits in the 
+    representation of `SU(3)xSU(2)xU(1)` as `(1,2,1/2)`, and can be formally defined 
+    as living in the space of sections of a vector bundle over spacetime, with fiber `C^2`. 
+  area: "Particles/StandardModel" # (Required) The area of physics it belongs to. E.g. "ClassicalMechanics/HarmonicOscillator"
+  
+formalization:
+  isInPhyslib : true # (Required) Whether the definition is in PhysLib or not.
+
+source: 
+  references: ["https://doi.org/10.1103/PhysRevLett.13.508"] # A list of references for the definition. 
+  addedBy: "Joseph Tooby-Smith" # The name of the person who added the definition.
+  dateAdded: "2026-06-11" # The date the definition was added. E.g. "2024-06-01"
+  datesModified: [] # A list of dates when the definition was modified.
