@@ -15,4 +15,4 @@ source:
   references: [] # A list of references for the definition. 
   addedBy: "" # The name of the person who added the definition.
   dateAdded: "" # The date the definition was added. E.g. "2024-06-01"
-  datesModified: [] # A list of dates when the definition was modified.
+  datesModified: [] # A pair of a date and an author for each time this file was modified.

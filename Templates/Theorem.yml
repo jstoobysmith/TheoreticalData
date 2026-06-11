@@ -18,4 +18,4 @@ source:
   references: [] # A list of references for the theorem. 
   addedBy: "" # The name of the person who added the theorem.
   dateAdded: "" # The date the theorem was added. E.g. "2024-06-01"
-  datesModified: [] # A list of dates when the theorem was modified.
+  datesModified: [] # A pair of a date and an author for each time this file was modified.

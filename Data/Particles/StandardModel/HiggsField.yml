@@ -18,4 +18,4 @@ source:
   references: ["https://doi.org/10.1103/PhysRevLett.13.508"] # A list of references for the definition. 
   addedBy: "Joseph Tooby-Smith" # The name of the person who added the definition.
   dateAdded: "2026-06-11" # The date the definition was added. E.g. "2024-06-01"
-  datesModified: [] # A list of dates when the definition was modified.
+  datesModified: [] # A pair of a date and an author for each time this file was modified.
