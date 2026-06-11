@@ -1,0 +1,18 @@
+## A definition
+
+version: "v0.1"
+
+definition:
+  name: "" # (Required) The canonical name for the definition. 
+  description: | # (Required) The definition itself. 
+    description of the definition
+  area: "" # (Required) The area of physics it belongs to. E.g. "ClassicalMechanics/HarmonicOscillator"
+  
+formalization:
+  isInPhyslib : false # (Required) Whether the definition is in PhysLib or not.
+
+source: 
+  references: [] # A list of references for the definition. 
+  addedBy: "" # The name of the person who added the definition.
+  dateAdded: "" # The date the definition was added. E.g. "2024-06-01"
+  datesModified: [] # A list of dates when the definition was modified.

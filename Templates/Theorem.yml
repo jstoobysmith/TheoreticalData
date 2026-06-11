@@ -1,0 +1,21 @@
+## A Theorem
+
+version: "v0.1"
+
+theorem:
+  name: "" # (Required) The canonical name for the theorem. 
+  statement: |  # (Required) The theorem itself. 
+    statement of the theorem
+  isOpen: false # (Required) Whether the theorem has a proof or not
+  proof : | # The proof of the theorem 
+    proof of the theorem
+  area: "" # (Required) The area of physics it belongs to. E.g. "ClassicalMechanics/HarmonicOscillator"
+
+formalization:
+  isInPhyslib : false # (Required) Whether the theorem is in PhysLib or not.
+
+source: 
+  references: [] # A list of references for the theorem. 
+  addedBy: "" # The name of the person who added the theorem.
+  dateAdded: "" # The date the theorem was added. E.g. "2024-06-01"
+  datesModified: [] # A list of dates when the theorem was modified.
