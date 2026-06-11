@@ -18,4 +18,4 @@ source:
   references: [] # A list of references for the calculation. 
   addedBy: "" # The name of the person who added the calculation.
   dateAdded: "" # The date the calculation was added. "year-month-day" e.g. "2026-06-11"
-  datesModified: [] # A list of dates when the calculation was modified in format "year-month-day".
+  datesModified: [] # A pair of a date and an author for each time this file was modified.
